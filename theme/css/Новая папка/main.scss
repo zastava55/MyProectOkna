@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo|PT+Sans:400,700|Raleway:100,300,400,600,700,800&display=swap&subset=cyrillic');
+@import url('../fonts/fontawesome-webfont.eot');
+
+@font-face {
+    font-family: 'east-sea-dokdo-cyrillic';
+    src: url("../fonts/east-sea-dokdo-cyrillic/east-sea-dokdo-cyrillic.otf");
+    src: url("../fonts/east-sea-dokdo-cyrillic/east-sea-dokdo-cyrillic.otf?#iefix") format("embedded-opentype"), url("../fonts/east-sea-dokdo-cyrillic/east-sea-dokdo-cyrillic-webfont.woff2") format("woff2"), url("../fonts/east-sea-dokdo-cyrillic/east-sea-dokdo-cyrillic-webfont.woff") format("woff"), url("../fonts/east-sea-dokdo-cyrillic/east-sea-dokdo-cyrillic.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+dialog,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+table {
+    border-collapse: separate;
+}
+caption,
+th,
+td {
+    font-weight: normal;
+    float: none !important;
+}
+table,
+th,
+td {
+    vertical-align: middle;
+}
+.tdtop {
+    vertical-align: top !important;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+}
+blockquote,
+q {
+    quotes: """";
+}
+a img {
+    border: none;
+}
+:focus {
+    outline: 0;
+}
+body {
+    font-size: 62.5% !important;
+    color: #0d0d0d;
+    background: url("../img/bg_hea.png");
+    font-family: 'Raleway', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    color: #161616;
+}
+h1 {
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 0px;
+    color: #0c6bb6;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 15px;
+}
+h2 {
+    font-size: 44px;
+    color: #ffd500;
+    font-weight: bold;
+}
+h3 {
+    font-size: 44px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 1.2em;
+    line-height: 1.25;
+    margin-bottom: 1.25em;
+}
+h5 {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+h6 {
+    font-size: 1em;
+}
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
+    margin: 0;
+}
+p {
+    font-weight: lighter !important;
+    font-size: 1.4em;
+}
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+a {
+    text-decoration: underline;
+    color: #5394ff;
+}
+pre {
+    margin: 1.5em 0;
+    white-space: pre;
+}
+pre,
+code,
+tt {
+    font: 1em 'andale mono', 'lucida console', monospace;
+    line-height: 1.5;
+}
+li ul,
+li ol {
+    margin: 0;
+}
+ul,
+ol {
+    margin: 0;
+}
+ul {
+    list-style-type: disc;
+}
+ol {
+    list-style-type: decimal;
+}
+dl {
+    margin: 0 0 1.5em 0;
+}
+dl dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 1.5em;
+}
+
+header{
+
+}
+.top_block {
+    margin-bottom: 15px;
+}
+
+.top_block .top_block__logo {
+    margin: 5px 0 10px -30px;
+    text-align: center;
+}
+ .top_block .top_block__logo img {
+	 height: auto;
+	  width: 359px;
+ }
+.top_block .top_block__slogon {
+    color: #ff914d;
+    font-size: 2.7em;
+    font-family: 'east-sea-dokdo-cyrillic';
+}
+
+.top_block .top_block__slogon--1 {
+    margin-top: 55px;
+}
+
+.top_block .top_block__slogon--2 {
+    text-align: right;
+    margin-right: -15px;
+}
+
+.top_block .top_block__tel {
+    color: #030303;
+    font-size: 3.6em;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.top_block .top_block__vamperez {
+    margin-top: -5px;
+    color: #030303;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2.7em;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 14px;
+}
+
+.top_block .top_block__vamperez span {
+    border-bottom: 2px dotted #030303;
+}
+
+@media only screen and (max-width: 1200px) {
+    .top_block .top_block__logo img {
+		 height: auto;
+        width: 90%;
+    }
+
+    .top_block .top_block__slogon {
+        font-size: 2em;
+    }
+
+    .top_block .top_block__slogon--1 {
+        margin-top: 45px;
+    }
+
+    .top_block .top_block__slogon--2 {
+        margin-right: 0px;
+    }
+
+    .top_block .top_block__tel {
+        font-size: 2.6em;
+        text-align: right;
+        margin-top: 35px;
+    }
+
+    .top_block .top_block__vamperez {
+        margin-top: -5px;
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .top_block .top_block__logo img {
+        width: 100%;
+        margin-left: 6%;
+    }
+
+    .top_block .top_block__slogon {
+        font-size: 1.6em;
+    }
+
+    .top_block .top_block__slogon--1 {
+        margin-top: 38px;
+    }
+
+    .top_block .top_block__tel {
+        font-size: 2.6em;
+        text-align: right;
+        margin-top: 25px;
+    }
+
+    .top_block .top_block__vamperez {
+        margin-top: -5px;
+        font-size: 1.8em;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .top_block .top_block__logo img {
+        width: 45%;
+    }
+
+    .top_block .top_block__slogon {
+        font-size: 1.9em;
+        text-align: center;
+    }
+
+    .top_block .top_block__slogon--1 {
+        margin-top: 5px;
+    }
+
+    .top_block .top_block__tel {
+        font-size: 2.6em;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .top_block .top_block__vamperez {
+        margin-top: -5px;
+        font-size: 1.8em;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .top_block .top_block__logo img {
+        width: 60%;
+    }
+
+    .top_block .top_block__slogon {
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .top_block .top_block__slogon--1 {
+        margin-top: 20px;
+    }
+
+    .top_block .top_block__tel {
+        font-size: 2.6em;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .top_block .top_block__vamperez {
+        margin-top: -5px;
+        font-size: 1.8em;
+        text-align: center;
+    }
+}
+
+//   Top-Menu
+.top_menu {
+    box-shadow: 0px 5px 35px 0px rgba(204, 204, 204, 0.6);
+}
+
+.top_menu.navbar-default {
+    background-color: #ffe600;
+    height: 54px;
+    border: 0px;
+    position: relative;
+    z-index: 10
+}
+
+.top_menu.navbar-default .navbar-header {
+    cursor: pointer;
+}
+
+.top_menu.navbar-default .navbar-nav > li {
+    margin-right: 10px;
+    margin-top: 13px;
+}
+
+.top_menu.navbar-default .navbar-nav > li > a {
+    color: #030303;
+    font-size: 1.6em;
+    text-decoration: none;
+    padding: 5px 10px 3px 10px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    font-family: 'ALSSchlangesans';
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.top_menu.navbar-default .navbar-nav > .active > a,
+.top_menu.navbar-default .navbar-nav > .active > a:focus,
+.top_menu.navbar-default .navbar-nav > .active > a:hover,
+.top_menu.navbar-default .navbar-nav > li > a:hover {
+    color: #030303;
+    background-color: #fff !important;
+}
+
+.top_menu.navbar {
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+.top_menu .menu_aksii {
+    width: 240px;
+    margin-top: -22px;
+}
+
+.top_menu .menu_aksii img {
+    width: 100%;
+}
+
+.top_menu .menu_str {
+    background: url(../img/menu_str.png) no-repeat center center;
+    height: 8px;
+    margin-top: -13px;
+    margin-bottom: 10px;
+}
+
+.top_menu .dropdown-menu {
+    width: 100%;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    border: 0px solid #ccc;
+    border: 0px solid rgba(0, 0, 0, 0.15);
+    border-radius: 12px !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.475);
+}
+
+.top_menu .dropdown-menu > li > a {
+    font-family: 'ALSSchlangesans';
+    font-size: 1.1em;
+    display: block;
+    padding: 3px 10px;
+    clear: both;
+    color: #333;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.top_menu .dropdown-toggle {
+    margin-bottom: 7px;
+}
+
+.top_menu .dropdown-menu > li > a:hover {
+    color: #333 !important;
+    background-color: transparent;
+}
+
+.top_menu .dropdown-menu .divider {
+    height: 1px;
+    margin: 6px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}

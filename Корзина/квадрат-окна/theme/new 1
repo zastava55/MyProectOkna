@@ -1,0 +1,19 @@
+<div class="container top_block">
+	  	<div class="row">
+		
+		  	<div class="col-md-4 col-sm-4">
+			  	<div class="top_block__logo"><a href="index.html"><img src="img/logo.png" alt="" class=""></a></div>
+		  	</div>
+			
+		  	<div class="col-md-4 col-sm-4">
+			  	<div class="top_block__slogon top_block__slogon--1">Хотите узнать где дешевле?</div>
+				<div class="top_block__slogon top_block__slogon--2">100% Вы на нужном сайте!</div>		  	
+			</div>
+			
+		  	<div class="col-md-4 col-sm-4">
+			  	<a style="text-decoration:none;" class="black" href="tel:8 (843) 212 24 22"><div class="top_block__tel comagic_phone">8 (843) 212 24 22</div></a>
+			  	<div class="top_block__vamperez" data-toggle="modal" data-target="#kupitDeshevle"><span>Вам перезвонить?</span></div>
+		  	</div>
+			
+	  	</div>
+	  </div>

@@ -1,0 +1,3258 @@
+@import url("https://fonts.googleapis.com/css?family=East+Sea+Dokdo|PT+Sans:400,700|Raleway:100,300,400,600,700,800&display=swap&subset=cyrillic");
+@import url("../fonts/fontawesome-webfont.eot");
+@font-face {
+  font-family: 'east-sea-dokdo-cyrillic';
+  src: url("../fonts/east-sea-dokdo-cyrillic/east-sea-dokdo-cyrillic.otf");
+  src: url("../fonts/east-sea-dokdo-cyrillic/east-sea-dokdo-cyrillic.otf?#iefix") format("embedded-opentype"), url("../fonts/east-sea-dokdo-cyrillic/east-sea-dokdo-cyrillic-webfont.woff2") format("woff2"), url("../fonts/east-sea-dokdo-cyrillic/east-sea-dokdo-cyrillic-webfont.woff") format("woff"), url("../fonts/east-sea-dokdo-cyrillic/east-sea-dokdo-cyrillic.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* line 12, main.scss */
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+
+/* line 59, main.scss */
+img {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+/* line 65, main.scss */
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0; }
+
+/* line 75, main.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+dialog,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+/* line 89, main.scss */
+table {
+  border-collapse: separate; }
+
+/* line 92, main.scss */
+caption,
+th,
+td {
+  font-weight: normal;
+  float: none !important; }
+
+/* line 98, main.scss */
+table,
+th,
+td {
+  vertical-align: middle; }
+
+/* line 103, main.scss */
+.tdtop {
+  vertical-align: top !important; }
+
+/* line 106, main.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ''; }
+
+/* line 112, main.scss */
+blockquote,
+q {
+  quotes: "" ""; }
+
+/* line 116, main.scss */
+a img {
+  border: none; }
+
+/* line 119, main.scss */
+:focus {
+  outline: 0; }
+
+/* line 122, main.scss */
+body {
+  font-size: 62.5% !important;
+  color: #0d0d0d;
+  background: url("../img/bg_hea.png");
+  font-family: 'Raleway', sans-serif; }
+
+/* line 128, main.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  color: #161616; }
+
+/* line 137, main.scss */
+h1 {
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 0px;
+  color: #0c6bb6;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 15px; }
+
+/* line 145, main.scss */
+h2 {
+  font-size: 44px;
+  color: #ffd500;
+  font-weight: bold; }
+
+/* line 150, main.scss */
+h3 {
+  font-size: 44px;
+  font-weight: bold; }
+
+/* line 154, main.scss */
+h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em; }
+
+/* line 159, main.scss */
+h5 {
+  font-size: 1em;
+  margin-bottom: 1.5em; }
+
+/* line 163, main.scss */
+h6 {
+  font-size: 1em; }
+
+/* line 166, main.scss */
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
+  margin: 0; }
+
+/* line 174, main.scss */
+p {
+  font-weight: lighter !important;
+  font-size: 1.4em; }
+
+/* line 178, main.scss */
+a:focus,
+a:hover {
+  text-decoration: none; }
+
+/* line 182, main.scss */
+a {
+  text-decoration: underline;
+  color: #5394ff; }
+
+/* line 186, main.scss */
+pre {
+  margin: 1.5em 0;
+  white-space: pre; }
+
+/* line 190, main.scss */
+pre,
+code,
+tt {
+  font: 1em 'andale mono', 'lucida console', monospace;
+  line-height: 1.5; }
+
+/* line 196, main.scss */
+li ul,
+li ol {
+  margin: 0; }
+
+/* line 200, main.scss */
+ul,
+ol {
+  margin: 0; }
+
+/* line 204, main.scss */
+ul {
+  list-style-type: disc; }
+
+/* line 207, main.scss */
+ol {
+  list-style-type: decimal; }
+
+/* line 210, main.scss */
+dl {
+  margin: 0 0 1.5em 0; }
+
+/* line 213, main.scss */
+dl dt {
+  font-weight: bold; }
+
+/* line 216, main.scss */
+dd {
+  margin-left: 1.5em; }
+
+/* line 223, main.scss */
+.top_block {
+  margin-bottom: 15px; }
+
+/* line 227, main.scss */
+.top_block .top_block__logo {
+  margin: 5px 0 10px -30px;
+  text-align: center; }
+
+/* line 231, main.scss */
+.top_block .top_block__logo img {
+  height: auto;
+  width: 359px; }
+
+/* line 235, main.scss */
+.top_block .top_block__slogon {
+  color: #ff914d;
+  font-size: 2.7em;
+  font-family: 'east-sea-dokdo-cyrillic'; }
+
+/* line 241, main.scss */
+.top_block .top_block__slogon--1 {
+  margin-top: 55px; }
+
+/* line 245, main.scss */
+.top_block .top_block__slogon--2 {
+  text-align: right;
+  margin-right: -15px; }
+
+/* line 250, main.scss */
+.top_block .top_block__tel {
+  color: #030303;
+  font-size: 3.6em;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 45px; }
+
+/* line 259, main.scss */
+.top_block .top_block__vamperez {
+  margin-top: -5px;
+  color: #030303;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2.7em;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 14px; }
+
+/* line 270, main.scss */
+.top_block .top_block__vamperez span {
+  border-bottom: 2px dotted #030303; }
+
+@media only screen and (max-width: 1200px) {
+  /* line 275, main.scss */
+  .top_block .top_block__logo img {
+    height: auto;
+    width: 90%; }
+
+  /* line 280, main.scss */
+  .top_block .top_block__slogon {
+    font-size: 2em; }
+
+  /* line 284, main.scss */
+  .top_block .top_block__slogon--1 {
+    margin-top: 45px; }
+
+  /* line 288, main.scss */
+  .top_block .top_block__slogon--2 {
+    margin-right: 0px; }
+
+  /* line 292, main.scss */
+  .top_block .top_block__tel {
+    font-size: 2.6em;
+    text-align: right;
+    margin-top: 35px; }
+
+  /* line 298, main.scss */
+  .top_block .top_block__vamperez {
+    margin-top: -5px;
+    font-size: 2em; } }
+@media only screen and (max-width: 992px) {
+  /* line 304, main.scss */
+  .top_block .top_block__logo img {
+    width: 100%;
+    margin-left: 6%; }
+
+  /* line 309, main.scss */
+  .top_block .top_block__slogon {
+    font-size: 1.6em; }
+
+  /* line 313, main.scss */
+  .top_block .top_block__slogon--1 {
+    margin-top: 38px; }
+
+  /* line 317, main.scss */
+  .top_block .top_block__tel {
+    font-size: 2.6em;
+    text-align: right;
+    margin-top: 25px; }
+
+  /* line 323, main.scss */
+  .top_block .top_block__vamperez {
+    margin-top: -5px;
+    font-size: 1.8em;
+    text-align: right; } }
+@media only screen and (max-width: 767px) {
+  /* line 331, main.scss */
+  .top_block .top_block__logo img {
+    width: 45%; }
+
+  /* line 335, main.scss */
+  .top_block .top_block__slogon {
+    font-size: 1.9em;
+    text-align: center; }
+
+  /* line 340, main.scss */
+  .top_block .top_block__slogon--1 {
+    margin-top: 5px; }
+
+  /* line 344, main.scss */
+  .top_block .top_block__tel {
+    font-size: 2.6em;
+    text-align: center;
+    margin-top: 10px; }
+
+  /* line 350, main.scss */
+  .top_block .top_block__vamperez {
+    margin-top: -5px;
+    font-size: 1.8em;
+    text-align: center; } }
+@media only screen and (max-width: 480px) {
+  /* line 358, main.scss */
+  .top_block .top_block__logo img {
+    width: 60%; }
+
+  /* line 362, main.scss */
+  .top_block .top_block__slogon {
+    font-size: 1.6em;
+    text-align: center; }
+
+  /* line 367, main.scss */
+  .top_block .top_block__slogon--1 {
+    margin-top: 20px; }
+
+  /* line 371, main.scss */
+  .top_block .top_block__tel {
+    font-size: 2.6em;
+    text-align: center;
+    margin-top: 10px; }
+
+  /* line 377, main.scss */
+  .top_block .top_block__vamperez {
+    margin-top: -5px;
+    font-size: 1.8em;
+    text-align: center; } }
+/* line 385, main.scss */
+.top_menu {
+  box-shadow: 0px 5px 35px 0px rgba(204, 204, 204, 0.6); }
+
+/* line 389, main.scss */
+.top_menu.navbar-default {
+  background-color: #ff914d;
+  height: 54px;
+  border: 0px;
+  position: relative;
+  z-index: 10; }
+
+/* line 397, main.scss */
+.top_menu.navbar-default .navbar-header {
+  cursor: pointer; }
+
+/* line 401, main.scss */
+.top_menu.navbar-default .navbar-nav > li {
+  margin-right: 10px;
+  margin-top: 13px; }
+
+/* line 406, main.scss */
+.top_menu.navbar-default .navbar-nav > li > a {
+  color: #030303;
+  font-size: 1.6em;
+  text-decoration: none;
+  padding: 5px 10px 3px 10px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  font-family: 'Raleway', sans-serif;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+/* line 418, main.scss */
+.top_menu.navbar-default .navbar-nav > .active > a,
+.top_menu.navbar-default .navbar-nav > .active > a:focus,
+.top_menu.navbar-default .navbar-nav > .active > a:hover,
+.top_menu.navbar-default .navbar-nav > li > a:hover {
+  color: #030303;
+  background-color: #fff !important; }
+
+/* line 426, main.scss */
+.top_menu.navbar {
+  border-radius: 0;
+  margin-bottom: 0px; }
+
+/* line 431, main.scss */
+.top_menu .menu_aksii {
+  width: 240px;
+  margin-top: -22px; }
+
+/* line 436, main.scss */
+.top_menu .menu_aksii img {
+  width: 100%; }
+
+/* line 440, main.scss */
+.top_menu .menu_str {
+  background: url(../img/menu_str.png) no-repeat center center;
+  height: 8px;
+  margin-top: -13px;
+  margin-bottom: 10px; }
+
+/* line 447, main.scss */
+.top_menu .dropdown-menu {
+  width: 100%;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  border: 0px solid #ccc;
+  border: 0px solid rgba(0, 0, 0, 0.15);
+  border-radius: 12px !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.475); }
+
+/* line 457, main.scss */
+.top_menu .dropdown-menu > li > a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  display: block;
+  padding: 3px 10px;
+  clear: both;
+  color: #333;
+  white-space: nowrap;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+/* line 469, main.scss */
+.top_menu .dropdown-toggle {
+  margin-bottom: 7px; }
+
+/* line 473, main.scss */
+.top_menu .dropdown-menu > li > a:hover {
+  color: #333 !important;
+  background-color: transparent; }
+
+/* line 478, main.scss */
+.top_menu .dropdown-menu .divider {
+  height: 1px;
+  margin: 6px 0;
+  overflow: hidden;
+  background-color: #e5e5e5; }
+
+/* line 484, main.scss */
+.baba {
+  background-color: aqua;
+  color: aquamarine; }
+
+@media only screen and (max-width: 1200px) {
+  /* line 490, main.scss */
+  .top_menu.navbar-default .navbar-nav > li {
+    margin-right: 8px;
+    margin-top: 13px; }
+
+  /* line 495, main.scss */
+  .top_menu.navbar-default .navbar-nav > li > a {
+    font-size: 1.4em;
+    padding: 5px 8px 3px 8px; }
+
+  /* line 500, main.scss */
+  .top_menu .dropdown-menu > li > a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    display: block;
+    padding: 3px 10px;
+    clear: both;
+    color: #333;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none; }
+
+  /* line 512, main.scss */
+  .top_menu .dropdown-menu .divider {
+    height: 1px;
+    margin: 6px 0;
+    overflow: hidden;
+    background-color: #e5e5e5; } }
+@media only screen and (max-width: 992px) {
+  /* line 521, main.scss */
+  .top_menu.navbar-default .navbar-nav > li {
+    margin-right: 6px;
+    margin-top: 13px; }
+
+  /* line 526, main.scss */
+  .top_menu.navbar-default .navbar-nav > li > a {
+    font-size: 1.2em;
+    padding: 5px 6px 3px 6px; }
+
+  /* line 531, main.scss */
+  .top_menu .dropdown-menu > li > a {
+    font-family: 'Raleway', sans-serif;
+    font-size: .9em;
+    display: block;
+    padding: 2px 10px 2px 10px;
+    clear: both;
+    color: #333;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none; }
+
+  /* line 543, main.scss */
+  .top_menu .dropdown-menu .divider {
+    height: 1px;
+    margin: 6px 0;
+    overflow: hidden;
+    background-color: #e5e5e5; } }
+@media only screen and (max-width: 767px) {
+  /* line 552, main.scss */
+  .top_menu .navbar-collapse {
+    background-color: #ff914d;
+    border-top: 1px solid #fff; }
+
+  /* line 557, main.scss */
+  .top_menu.navbar-default .navbar-toggle {
+    background-color: #ff914d;
+    border-color: #030303; }
+
+  /* line 562, main.scss */
+  .top_menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #030303; }
+
+  /* line 566, main.scss */
+  .top_menu.navbar-default .navbar-brand {
+    color: #030303;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-top: 3px; }
+
+  /* line 573, main.scss */
+  .top_menu.navbar-default .navbar-nav > li {
+    margin-right: 1px;
+    margin-top: 13px;
+    text-align: center;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /* line 582, main.scss */
+  .top_menu.navbar-default .navbar-nav > li > a {
+    font-size: 1.6em;
+    padding: 12px 7px 6px 7px; }
+
+  /* line 587, main.scss */
+  .top_menu .dropdown-menu > li > a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    display: block;
+    clear: both;
+    color: #333 !important;
+    padding: 10px 0px !important;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center; }
+
+  /* line 600, main.scss */
+  .top_menu .dropdown-menu {
+    margin-bottom: 30px;
+    margin-left: 0px !important; } }
+/* line 606, main.scss */
+.es1_bg {
+  height: 540px;
+  background: url(../img/llogo.png?33) center top no-repeat; }
+
+/* line 611, main.scss */
+.es1_bg .es1_oknoman {
+  width: 780px;
+  position: absolute;
+  margin-top: 0px; }
+
+/* line 617, main.scss */
+.es1_bg .es1_bg__aktsiya {
+  position: absolute;
+  line-height: 1;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  margin: 58px 0px 0px 90px; }
+
+/* line 626, main.scss */
+.es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__redzag {
+  font-size: 6em;
+  color: #f72727;
+  margin-bottom: 3px; }
+
+/* line 632, main.scss */
+.es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__redzag span {
+  font-family: 'Raleway', sans-serif; }
+
+/* line 636, main.scss */
+.es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__blackzag {
+  color: #0d0d0d;
+  font-size: 3em;
+  margin-left: 100px;
+  text-indent: -50px; }
+
+/* line 643, main.scss */
+.es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__persent {
+  color: #f72727;
+  font-size: 11.5em;
+  margin-left: 55px;
+  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.02em 0.03em 0.08em rgba(0, 0, 0, 0.6); }
+
+/* line 650, main.scss */
+.es1_bg .es1_bg__right_col {
+  margin-left: 770px;
+  margin-top: 30px;
+  width: 350px;
+  position: relative; }
+
+/* line 657, main.scss */
+.es1_bg .es1_bg__right_col .es1_bg__right_col__zag90 {
+  font-size: 7.5em;
+  color: #0b0b0b;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+  margin-left: 30px; }
+
+/* line 667, main.scss */
+.es1_bg .es1_bg__right_col .es1_bg__right_col__zag70 {
+  font-size: 5.5em;
+  color: #0b0b0b;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+  margin-left: 30px; }
+
+/* line 677, main.scss */
+.es1_bg .es1_bg__right_col .es1_bg__right_col__stoim {
+  font-size: 9em;
+  color: #ff914d;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+  margin-left: 30px;
+  margin-bottom: 10px; }
+
+/* line 688, main.scss */
+.es1_bg .es1_bg__right_col .es1_bg__right_col__stoim span {
+  color: #030303;
+  font-style: italic;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+  font-size: .7em;
+  font-weight: bold; }
+
+/* line 697, main.scss */
+.es1_bg .es1_bg__right_col .rasschitatlink {
+  text-decoration: none; }
+
+/* line 701, main.scss */
+.es1_bg .es1_bg__right_col .rasschitat {
+  background: #f60e0e;
+  background: -webkit-linear-gradient(bottom, #c90b0b, #fe0e0e);
+  background: linear-gradient(to top, #c90b0b, #fe0e0e);
+  border: 5px solid #fff;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 4.2em;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 15px 0px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0.01s;
+  transition: all 0.3s ease 0.01s;
+  margin-bottom: 15px; }
+
+/* line 721, main.scss */
+.es1_bg .es1_bg__right_col .rasschitat:hover {
+  background: #c90b0b;
+  background: -webkit-linear-gradient(bottom, #fe0e0e, #c90b0b);
+  background: linear-gradient(to top, #fe0e0e, #c90b0b);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3); }
+
+/* line 728, main.scss */
+.es1_bg .es1_bg__right_col .rasschitat div {
+  font-size: .5em;
+  font-family: 'Raleway', sans-serif; }
+
+/* line 733, main.scss */
+.es1_bg .es1_bg__right_col .es1_bg__right_col__primech {
+  font-size: 1.4em;
+  color: #3d3d3d;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1;
+  margin-left: 50px;
+  text-indent: -10px;
+  margin-bottom: 20px;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; }
+
+/* line 745, main.scss */
+.es1_bg .es1_bg__right_col .es1_bg__right_col__zamer {
+  width: 420px;
+  background: #ff914d;
+  border-radius: 40px;
+  margin-left: -65px;
+  height: 92px;
+  cursor: pointer; }
+
+/* line 754, main.scss */
+.es1_bg .es1_bg__right_col .es1_bg__right_col__zamer .es1_ruler {
+  width: 102px;
+  height: 79px;
+  background: url(../img/es1_ruler.png) no-repeat center center;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 12px; }
+
+/* line 763, main.scss */
+.es1_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer {
+  margin-left: 40px;
+  padding-top: 14px;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1; }
+
+/* line 772, main.scss */
+.es1_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer span {
+  font-size: 1.2em; }
+
+@media only screen and (max-width: 1200px) {
+  /* line 777, main.scss */
+  .es1_bg .es1_bg__right_col {
+    margin-left: 600px; } }
+@media only screen and (max-width: 992px) {
+  /* line 783, main.scss */
+  .es1_bg {
+    height: auto; }
+
+  /* line 787, main.scss */
+  .es1_bg .es1_oknoman {
+    width: 600px;
+    position: relative;
+    margin-top: 20px;
+    margin: 20px 0px 0px; }
+
+  /* line 794, main.scss */
+  .es1_bg .es1_bg__aktsiya {
+    position: absolute;
+    line-height: 1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 40px 0px 0px 70px; }
+
+  /* line 803, main.scss */
+  .es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__redzag {
+    font-size: 5em;
+    color: #f72727;
+    margin-bottom: 0px; }
+
+  /* line 809, main.scss */
+  .es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__redzag span {
+    font-family: 'Raleway', sans-serif; }
+
+  /* line 813, main.scss */
+  .es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__blackzag {
+    color: #0d0d0d;
+    font-size: 2.2em;
+    margin-left: 90px;
+    text-indent: -50px; }
+
+  /* line 820, main.scss */
+  .es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__persent {
+    color: #f72727;
+    font-size: 8em;
+    margin-left: 55px;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.02em 0.03em 0.08em rgba(0, 0, 0, 0.6); }
+
+  /* line 827, main.scss */
+  .es1_bg .es1_bg__right_col {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: -200px; }
+
+  /* line 833, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zag90 {
+    font-size: 7.5em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+    margin-left: 440px; }
+
+  /* line 843, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zag70 {
+    font-size: 5.5em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+    margin-left: 440px; }
+
+  /* line 853, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__stoim {
+    font-size: 9em;
+    margin-left: 440px;
+    margin-bottom: 10px; }
+
+  /* line 859, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__stoim span {
+    color: #030303;
+    font-style: italic;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+    font-size: .7em;
+    font-weight: bold; }
+
+  /* line 867, main.scss */
+  .es1_bg .es1_bg__right_col .rasschitat {
+    background: #f60e0e;
+    background: -webkit-linear-gradient(bottom, #c90b0b, #fe0e0e);
+    background: linear-gradient(to top, #c90b0b, #fe0e0e);
+    border: 5px solid #fff;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 4.2em;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 15px 0px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0.01s;
+    transition: all 0.3s ease 0.01s;
+    width: 90%;
+    margin: 0px auto 15px auto; }
+
+  /* line 888, main.scss */
+  .es1_bg .es1_bg__right_col .rasschitat:hover {
+    background: #c90b0b;
+    background: -webkit-linear-gradient(bottom, #fe0e0e, #c90b0b);
+    background: linear-gradient(to top, #fe0e0e, #c90b0b);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3); }
+
+  /* line 895, main.scss */
+  .es1_bg .es1_bg__right_col .rasschitat div {
+    font-size: .5em;
+    font-family: "ALSSchlangesans-bold"; }
+
+  /* line 900, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__primech {
+    text-align: center;
+    font-size: 1.4em;
+    color: #3d3d3d;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    margin-left: 0px;
+    text-indent: 0px;
+    margin-bottom: 20px;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; }
+
+  /* line 913, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zamer {
+    width: 90%;
+    background: #ff914d;
+    border-radius: 40px;
+    margin: 0px auto;
+    height: 92px;
+    cursor: pointer; }
+
+  /* line 922, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zamer .es1_ruler {
+    width: 102px;
+    height: 79px;
+    background: url(../img/es1_ruler.png) no-repeat center center;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 12px; }
+
+  /* line 931, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer {
+    margin-left: 40px;
+    padding-top: 14px;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1; }
+
+  /* line 940, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer span {
+    font-size: 1.2em; } }
+@media only screen and (max-width: 767px) {
+  /* line 946, main.scss */
+  .es1_bg {
+    height: auto; }
+
+  /* line 950, main.scss */
+  .es1_bg .es1_oknoman {
+    width: 450px;
+    position: relative;
+    margin: 10px auto 0px; }
+
+  /* line 956, main.scss */
+  .es1_bg .es1_bg__aktsiya {
+    position: absolute;
+    line-height: 1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 30px 0px 0px 50px; }
+
+  /* line 965, main.scss */
+  .es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__redzag {
+    font-size: 3.2em;
+    color: #f72727;
+    margin-bottom: 0px; }
+
+  /* line 971, main.scss */
+  .es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__redzag span {
+    font-family: 'Raleway', sans-serif; }
+
+  /* line 975, main.scss */
+  .es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__blackzag {
+    color: #0d0d0d;
+    font-size: 1.8em;
+    margin-left: 70px;
+    text-indent: -50px; }
+
+  /* line 982, main.scss */
+  .es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__persent {
+    color: #f72727;
+    font-size: 6.4em;
+    margin-left: 45px;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.02em 0.03em 0.08em rgba(0, 0, 0, 0.6); }
+
+  /* line 989, main.scss */
+  .es1_bg .es1_bg__right_col {
+    float: none;
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    margin-top: 10px; }
+
+  /* line 997, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zag90 {
+    font-size: 7.5em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+    margin-left: 0px; }
+
+  /* line 1007, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zag70 {
+    font-size: 5.5em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+    margin-left: 440px; }
+
+  /* line 1017, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__stoim {
+    font-size: 9em;
+    margin-left: 440px;
+    margin-bottom: 10px; }
+
+  /* line 1023, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__stoim span {
+    color: #030303;
+    font-style: italic;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+    font-size: .7em;
+    font-weight: bold; }
+
+  /* line 1031, main.scss */
+  .es1_bg .es1_bg__right_col .rasschitat {
+    background: #f60e0e;
+    background: -webkit-linear-gradient(bottom, #c90b0b, #fe0e0e);
+    background: linear-gradient(to top, #c90b0b, #fe0e0e);
+    border: 5px solid #fff;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 4.2em;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 15px 0px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0.01s;
+    transition: all 0.3s ease 0.01s;
+    width: 90%;
+    margin: 0px auto 15px auto; }
+
+  /* line 1052, main.scss */
+  .es1_bg .es1_bg__right_col .rasschitat:hover {
+    background: #c90b0b;
+    background: -webkit-linear-gradient(bottom, #fe0e0e, #c90b0b);
+    background: linear-gradient(to top, #fe0e0e, #c90b0b);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3); }
+
+  /* line 1059, main.scss */
+  .es1_bg .es1_bg__right_col .rasschitat div {
+    font-size: .5em;
+    font-family: "ALSSchlangesans-bold"; }
+
+  /* line 1064, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__primech {
+    text-align: center;
+    font-size: 1.4em;
+    color: #3d3d3d;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    margin-left: 0px;
+    text-indent: 0px;
+    margin-bottom: 20px;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; }
+
+  /* line 1077, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zamer {
+    width: 90%;
+    background: #ff914d;
+    border-radius: 40px;
+    margin: 0px auto;
+    height: 92px;
+    cursor: pointer; }
+
+  /* line 1086, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zamer .es1_ruler {
+    width: 102px;
+    height: 79px;
+    background: url(../img/es1_ruler.png) no-repeat center center;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 12px; }
+
+  /* line 1095, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer {
+    margin-left: 40px;
+    padding-top: 14px;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1; }
+
+  /* line 1104, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer span {
+    font-size: 1.2em; } }
+@media only screen and (max-width: 480px) {
+  /* line 1110, main.scss */
+  .es1_bg {
+    height: auto; }
+
+  /* line 1114, main.scss */
+  .es1_bg .es1_oknoman {
+    width: 290px;
+    position: relative;
+    margin: 10px auto 0px; }
+
+  /* line 1120, main.scss */
+  .es1_bg .es1_bg__aktsiya {
+    position: absolute;
+    line-height: 1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 20px 0px 0px 40px; }
+
+  /* line 1129, main.scss */
+  .es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__redzag {
+    font-size: 2em;
+    color: #f72727;
+    margin-bottom: 0px; }
+
+  /* line 1135, main.scss */
+  .es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__redzag span {
+    font-family: 'Raleway', sans-serif; }
+
+  /* line 1139, main.scss */
+  .es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__blackzag {
+    color: #0d0d0d;
+    font-size: 1.4em;
+    margin-left: 10px;
+    text-indent: -20px; }
+
+  /* line 1146, main.scss */
+  .es1_bg .es1_bg__aktsiya .es1_bg__aktsiya__persent {
+    color: #f72727;
+    font-size: 3.8em;
+    margin-left: 25px;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.02em 0.03em 0.08em rgba(0, 0, 0, 0.6); }
+
+  /* line 1153, main.scss */
+  .es1_bg .es1_bg__right_col {
+    float: none;
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    margin-top: 10px; }
+
+  /* line 1161, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zag90 {
+    font-size: 7.5em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+    margin-left: 0px; }
+
+  /* line 1171, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zag70 {
+    font-size: 5.5em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+    margin-left: 440px; }
+
+  /* line 1181, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__stoim {
+    font-size: 9em;
+    margin-left: 440px;
+    margin-bottom: 10px; }
+
+  /* line 1187, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__stoim span {
+    color: #030303;
+    font-style: italic;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+    font-size: .7em;
+    font-weight: bold; }
+
+  /* line 1195, main.scss */
+  .es1_bg .es1_bg__right_col .rasschitat {
+    background: #f60e0e;
+    background: -webkit-linear-gradient(bottom, #c90b0b, #fe0e0e);
+    background: linear-gradient(to top, #c90b0b, #fe0e0e);
+    border: 5px solid #fff;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 3.2em;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 15px 0px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0.01s;
+    transition: all 0.3s ease 0.01s;
+    width: 90%;
+    margin: 0px auto 15px auto; }
+
+  /* line 1216, main.scss */
+  .es1_bg .es1_bg__right_col .rasschitat:hover {
+    background: #c90b0b;
+    background: -webkit-linear-gradient(bottom, #fe0e0e, #c90b0b);
+    background: linear-gradient(to top, #fe0e0e, #c90b0b);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3); }
+
+  /* line 1223, main.scss */
+  .es1_bg .es1_bg__right_col .rasschitat div {
+    font-size: .5em;
+    font-family: "ALSSchlangesans-bold"; }
+
+  /* line 1228, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__primech {
+    text-align: center;
+    font-size: 1.2em;
+    color: #3d3d3d;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    margin-left: 0px;
+    text-indent: 0px;
+    margin-bottom: 20px;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; }
+
+  /* line 1241, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zamer {
+    width: 90%;
+    background: #ff914d;
+    border-radius: 40px;
+    margin: 0px auto;
+    height: 92px;
+    cursor: pointer; }
+
+  /* line 1250, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zamer .es1_ruler {
+    width: 102px;
+    height: 79px;
+    background: url(../img/es1_ruler.png) no-repeat center center;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 12px; }
+
+  /* line 1259, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer {
+    margin-left: 60px;
+    padding-top: 22px;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.2; }
+
+  /* line 1268, main.scss */
+  .es1_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer span {
+    font-size: 1.2em; } }
+/* line 1273, main.scss */
+.es1_main_bg {
+  height: 702px;
+  background: url(../img/llogo.png?33) 60% top no-repeat; }
+
+/* line 1278, main.scss */
+.es1_main_bg .es1_main__left_name {
+  width: 420px;
+  margin-top: 40px;
+  position: absolute;
+  margin-left: 20px; }
+
+/* line 1285, main.scss */
+.es1_main_bg .es1_main__left_name .es1_main__left_name__zag90 {
+  font-size: 10em;
+  color: #0b0b0b;
+  font-family: 'PF DinDisplay Pro';
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6); }
+
+/* line 1294, main.scss */
+.es1_main_bg .es1_main__left_name .es1_main__left_name__zag70 {
+  font-size: 5.8em;
+  color: #0b0b0b;
+  font-family: 'PF DinDisplay Pro';
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+  text-align: right; }
+
+/* line 1304, main.scss */
+.es1_main_bg .es1_main__left_name .es1_main__left_name__badg {
+  position: absolute;
+  width: 101px;
+  height: 124px;
+  background: url(../img/main/badg.png) no-repeat center center;
+  right: 0px;
+  top: -20px; }
+
+/* line 1313, main.scss */
+.es1_main_bg .es1_main__left_menu {
+  width: 250px;
+  margin-top: 240px;
+  position: absolute;
+  margin-left: 30px;
+  font-family: 'PF DinDisplay Pro';
+  font-size: 2.4em;
+  text-transform: uppercase;
+  line-height: 1.2; }
+
+/* line 1324, main.scss */
+.es1_main_bg .es1_main__left_menu .es1_main__left_menu__li1 {
+  padding-left: 35px;
+  background: url(../img/main/li1.png) no-repeat left top;
+  position: relative;
+  margin-bottom: 15px; }
+
+/* line 1331, main.scss */
+.es1_main_bg .es1_main__left_menu .es1_main__left_menu__li2 {
+  padding-left: 35px;
+  background: url(../img/main/li2.png) no-repeat left top;
+  margin-bottom: 15px; }
+
+/* line 1337, main.scss */
+.es1_main_bg .es1_main__left_menu .es1_main__left_menu__li3 {
+  padding-left: 35px;
+  background: url(../img/main/li3.png) no-repeat left top; }
+
+/* line 1342, main.scss */
+.es1_main_bg .es1_main__left_menu a {
+  color: #01d2e9;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #fff; }
+
+/* line 1348, main.scss */
+.es1_main_bg .es1_main__left_menu span a {
+  color: #01d2e9;
+  text-decoration: underline; }
+
+/* line 1353, main.scss */
+.es1_main_bg .es1_main__left_dayblock {
+  width: 400px;
+  margin-top: 480px;
+  position: absolute;
+  margin-left: 30px; }
+
+/* line 1360, main.scss */
+.es1_main_bg .es1_main__day {
+  font-size: 2.6em;
+  color: #0b0b0b;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1;
+  width: 220px;
+  text-align: right;
+  margin-bottom: 5px; }
+
+/* line 1373, main.scss */
+.es1_main_bg .es1_main__skidka {
+  font-size: 5.5em;
+  color: #0b0b0b;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1;
+  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.07em 0.07em 0.09em rgba(0, 0, 0, 0.8);
+  width: 240px;
+  text-align: right;
+  margin-bottom: 5px; }
+
+/* line 1387, main.scss */
+.es1_main_bg .es1_main_skidkaznach {
+  width: 270px;
+  margin: -105px 0px 0px 219px;
+  z-index: 1;
+  position: relative; }
+
+/* line 1394, main.scss */
+.es1_main_bg .es1_main_skidkaznach img {
+  width: 100%; }
+
+/* line 1398, main.scss */
+.es1_main_bg .es1_bg__right_col {
+  margin-left: 770px;
+  margin-top: 550px;
+  width: 350px;
+  position: relative; }
+
+/* line 1405, main.scss */
+.es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer {
+  width: 420px;
+  background: #ff914d;
+  border-radius: 40px;
+  margin-left: -65px;
+  height: 92px;
+  cursor: pointer; }
+
+/* line 1414, main.scss */
+.es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer .es1_ruler {
+  width: 102px;
+  height: 79px;
+  background: url(../img/es1_ruler.png) no-repeat center center;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 12px; }
+
+/* line 1423, main.scss */
+.es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer {
+  margin-left: 40px;
+  padding-top: 14px;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1; }
+
+/* line 1432, main.scss */
+.es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer span {
+  font-size: 1.2em; }
+
+@media only screen and (max-width: 1200px) {
+  /* line 1437, main.scss */
+  .es1_main_bg {
+    background: url(../img/llogo.png?33) 50% top no-repeat; }
+
+  /* line 1441, main.scss */
+  .es1_main_bg .es1_bg__right_col {
+    margin-left: 600px; } }
+@media only screen and (max-width: 992px) {
+  /* line 1447, main.scss */
+  .es1_main_bg {
+    height: auto;
+    background: url(../img/llogo.png?33) 58% top no-repeat; }
+
+  /* line 1452, main.scss */
+  .es1_main_bg .es1_main__left_name {
+    width: 350px;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: 30px; }
+
+  /* line 1459, main.scss */
+  .es1_main_bg .es1_main__left_name .es1_main__left_name__zag90 {
+    font-size: 8em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6); }
+
+  /* line 1468, main.scss */
+  .es1_main_bg .es1_main__left_name .es1_main__left_name__zag70 {
+    font-size: 6em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+    text-align: right; }
+
+  /* line 1478, main.scss */
+  .es1_main_bg .es1_main__left_name .es1_main__left_name__badg {
+    position: absolute;
+    width: 101px;
+    height: 124px;
+    background: url(../img/main/badg.png) no-repeat center center;
+    right: 0px;
+    top: -30px; }
+
+  /* line 1487, main.scss */
+  .es1_main_bg .es1_main__left_menu {
+    width: 250px;
+    margin-top: 240px;
+    position: relative;
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    line-height: 1.2; }
+
+  /* line 1498, main.scss */
+  .es1_main_bg .es1_main__left_menu .es1_main__left_menu__li1 {
+    padding-left: 35px;
+    background: url(../img/main/li1.png) no-repeat left top;
+    position: relative;
+    margin-bottom: 15px; }
+
+  /* line 1505, main.scss */
+  .es1_main_bg .es1_main__left_menu .es1_main__left_menu__li2 {
+    padding-left: 35px;
+    background: url(../img/main/li2.png) no-repeat left top;
+    margin-bottom: 15px; }
+
+  /* line 1511, main.scss */
+  .es1_main_bg .es1_main__left_menu .es1_main__left_menu__li3 {
+    padding-left: 35px;
+    background: url(../img/main/li3.png) no-repeat left top; }
+
+  /* line 1516, main.scss */
+  .es1_main_bg .es1_main__left_menu a {
+    color: #01d2e9;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #000, 1px 1px 3px #fff; }
+
+  /* line 1522, main.scss */
+  .es1_main_bg .es1_main__left_menu span a {
+    color: #01d2e9;
+    text-decoration: underline; }
+
+  /* line 1527, main.scss */
+  .es1_main_bg .es1_main__left_dayblock {
+    width: 400px;
+    margin-top: 40px;
+    position: relative;
+    margin-left: 30px; }
+
+  /* line 1534, main.scss */
+  .es1_main_bg .es1_main__day {
+    font-size: 2.6em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1;
+    width: 220px;
+    text-align: right;
+    margin-bottom: 5px; }
+
+  /* line 1547, main.scss */
+  .es1_main_bg .es1_main__skidka {
+    font-size: 5.5em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.07em 0.07em 0.09em rgba(0, 0, 0, 0.8);
+    width: 220px;
+    text-align: right;
+    margin-bottom: 5px; }
+
+  /* line 1561, main.scss */
+  .es1_main_bg .es1_main_skidkaznach {
+    width: 270px;
+    margin: -105px 0px 0px 219px;
+    z-index: 1;
+    position: relative; }
+
+  /* line 1568, main.scss */
+  .es1_main_bg .es1_main_skidkaznach img {
+    width: 100%; }
+
+  /* line 1572, main.scss */
+  .es1_main_bg .es1_bg__right_col {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative; }
+
+  /* line 1579, main.scss */
+  .es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer {
+    width: 90%;
+    background: #ff914d;
+    border-radius: 40px;
+    margin: 0px auto;
+    height: 92px;
+    cursor: pointer;
+    position: relative; }
+
+  /* line 1589, main.scss */
+  .es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer .es1_ruler {
+    width: 102px;
+    height: 79px;
+    background: url(../img/es1_ruler.png) no-repeat center center;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 12px; }
+
+  /* line 1598, main.scss */
+  .es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer {
+    margin-left: 40px;
+    padding-top: 14px;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1; }
+
+  /* line 1607, main.scss */
+  .es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer span {
+    font-size: 1.2em; } }
+@media only screen and (max-width: 767px) {
+  /* line 1613, main.scss */
+  .es1_main_bg {
+    height: auto;
+    background: url(../img/llogo.png?33) 58% top no-repeat;
+    background-size: 120%; }
+
+  /* line 1619, main.scss */
+  .es1_main_bg .es1_main__left_name {
+    width: 320px;
+    margin-top: 200px;
+    position: relative;
+    margin-left: 30px; }
+
+  /* line 1626, main.scss */
+  .es1_main_bg .es1_main__left_name .es1_main__left_name__zag90 {
+    font-size: 7em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6); }
+
+  /* line 1635, main.scss */
+  .es1_main_bg .es1_main__left_name .es1_main__left_name__zag70 {
+    font-size: 5em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+    text-align: right; }
+
+  /* line 1645, main.scss */
+  .es1_main_bg .es1_main__left_name .es1_main__left_name__badg {
+    position: absolute;
+    width: 60px;
+    height: 74px;
+    background: url(../img/main/badg.png) no-repeat center center;
+    background-size: cover;
+    right: 20px;
+    top: -10px; }
+
+  /* line 1655, main.scss */
+  .es1_main_bg .es1_main__left_menu {
+    width: 90%;
+    margin: 40px auto 0px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    line-height: 1.2; }
+
+  /* line 1665, main.scss */
+  .es1_main_bg .es1_main__left_menu .es1_main__left_menu__li1 {
+    padding-left: 35px;
+    background: url(../img/main/li1.png) no-repeat left top;
+    position: relative;
+    margin-bottom: 15px; }
+
+  /* line 1672, main.scss */
+  .es1_main_bg .es1_main__left_menu .es1_main__left_menu__li2 {
+    padding-left: 35px;
+    background: url(../img/main/li2.png) no-repeat left top;
+    margin-bottom: 15px; }
+
+  /* line 1678, main.scss */
+  .es1_main_bg .es1_main__left_menu .es1_main__left_menu__li3 {
+    padding-left: 35px;
+    background: url(../img/main/li3.png) no-repeat left top; }
+
+  /* line 1683, main.scss */
+  .es1_main_bg .es1_main__left_menu a {
+    color: #01d2e9;
+    text-decoration: none;
+    text-shadow: none; }
+
+  /* line 1689, main.scss */
+  .es1_main_bg .es1_main__left_menu span a {
+    color: #01d2e9;
+    text-decoration: underline; }
+
+  /* line 1694, main.scss */
+  .es1_main_bg .es1_main__left_dayblock {
+    width: 100%;
+    margin-top: 40px;
+    position: relative; }
+
+  /* line 1700, main.scss */
+  .es1_main_bg .es1_main__day {
+    font-size: 2.6em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1;
+    width: 220px;
+    text-align: right;
+    margin-bottom: 5px; }
+
+  /* line 1713, main.scss */
+  .es1_main_bg .es1_main__skidka {
+    font-size: 5.5em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.07em 0.07em 0.09em rgba(0, 0, 0, 0.8);
+    width: 220px;
+    text-align: right;
+    margin-bottom: 5px; }
+
+  /* line 1727, main.scss */
+  .es1_main_bg .es1_main_skidkaznach {
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+    z-index: 1;
+    position: relative;
+    text-align: center; }
+
+  /* line 1735, main.scss */
+  .es1_main_bg .es1_main_skidkaznach img {
+    width: 150px; }
+
+  /* line 1739, main.scss */
+  .es1_main_bg .es1_bg__right_col {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative; }
+
+  /* line 1746, main.scss */
+  .es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer {
+    width: 90%;
+    background: #ff914d;
+    border-radius: 40px;
+    margin: 0px auto;
+    height: 92px;
+    cursor: pointer;
+    position: relative; }
+
+  /* line 1756, main.scss */
+  .es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer .es1_ruler {
+    width: 102px;
+    height: 79px;
+    background: url(../img/es1_ruler.png) no-repeat center center;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 12px; }
+
+  /* line 1765, main.scss */
+  .es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer {
+    margin-left: 40px;
+    padding-top: 14px;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1; }
+
+  /* line 1774, main.scss */
+  .es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer span {
+    font-size: 1.2em; } }
+@media only screen and (max-width: 480px) {
+  /* line 1780, main.scss */
+  .es1_main_bg {
+    height: auto; }
+
+  /* line 1784, main.scss */
+  .es1_main_bg .es1_main__left_name {
+    width: 200px;
+    position: relative;
+    margin: 160px auto 0px; }
+
+  /* line 1790, main.scss */
+  .es1_main_bg .es1_main__left_name .es1_main__left_name__zag90 {
+    font-size: 5em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6); }
+
+  /* line 1799, main.scss */
+  .es1_main_bg .es1_main__left_name .es1_main__left_name__zag70 {
+    font-size: 3em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
+    text-align: right; }
+
+  /* line 1809, main.scss */
+  .es1_main_bg .es1_main__left_name .es1_main__left_name__badg {
+    position: absolute;
+    width: 60px;
+    height: 74px;
+    background: url(../img/main/badg.png) no-repeat center center;
+    background-size: cover;
+    right: 0px;
+    top: -20px; }
+
+  /* line 1819, main.scss */
+  .es1_main_bg .es1_main__left_menu {
+    width: 90%;
+    margin: 40px auto 0px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    line-height: 1.2; }
+
+  /* line 1829, main.scss */
+  .es1_main_bg .es1_main__left_menu .es1_main__left_menu__li1 {
+    padding-left: 0px;
+    background: none;
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center; }
+
+  /* line 1837, main.scss */
+  .es1_main_bg .es1_main__left_menu .es1_main__left_menu__li2 {
+    padding-left: 0px;
+    background: none;
+    margin-bottom: 15px;
+    text-align: center; }
+
+  /* line 1844, main.scss */
+  .es1_main_bg .es1_main__left_menu .es1_main__left_menu__li3 {
+    padding-left: 0px;
+    background: none;
+    text-align: center; }
+
+  /* line 1850, main.scss */
+  .es1_main_bg .es1_main__left_menu a {
+    color: #01d2e9;
+    text-decoration: none;
+    text-shadow: none; }
+
+  /* line 1856, main.scss */
+  .es1_main_bg .es1_main__left_menu span a {
+    color: #01d2e9;
+    text-decoration: underline; }
+
+  /* line 1861, main.scss */
+  .es1_main_bg .es1_main__left_dayblock {
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+    margin-left: 0px; }
+
+  /* line 1869, main.scss */
+  .es1_main_bg .es1_main__day {
+    font-size: 2.6em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px; }
+
+  /* line 1882, main.scss */
+  .es1_main_bg .es1_main__skidka {
+    font-size: 5.5em;
+    color: #0b0b0b;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1;
+    text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.07em 0.07em 0.09em rgba(0, 0, 0, 0.8);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px; }
+
+  /* line 1896, main.scss */
+  .es1_main_bg .es1_main_skidkaznach {
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+    z-index: 1;
+    position: relative;
+    text-align: center; }
+
+  /* line 1904, main.scss */
+  .es1_main_bg .es1_main_skidkaznach img {
+    width: 150px; }
+
+  /* line 1908, main.scss */
+  .es1_main_bg .es1_bg__right_col {
+    float: none;
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    margin-top: 10px; }
+
+  /* line 1916, main.scss */
+  .es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer {
+    width: 90%;
+    background: #ff914d;
+    border-radius: 40px;
+    margin: 0px auto;
+    height: 92px;
+    cursor: pointer; }
+
+  /* line 1925, main.scss */
+  .es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer .es1_ruler {
+    width: 102px;
+    height: 79px;
+    background: url(../img/es1_ruler.png) no-repeat center center;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 12px; }
+
+  /* line 1934, main.scss */
+  .es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer {
+    margin-left: 60px;
+    padding-top: 22px;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.2; }
+
+  /* line 1943, main.scss */
+  .es1_main_bg .es1_bg__right_col .es1_bg__right_col__zamer .text_zamer span {
+    font-size: 1.2em; } }
+/* line 1949, main.scss */
+.es2 .es2_zag {
+  padding: 0 20px;
+  text-align: center;
+  color: #0d0d0d;
+  font-size: 5em;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  padding-top: 40px;
+  margin-bottom: 60px; }
+
+/* line 1960, main.scss */
+.es2 .es2_red {
+  color: #ff3333; }
+
+/* line 1964, main.scss */
+.es2 .es2_block {
+  width: 1180px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* line 1976, main.scss */
+.es2 .es2_block .es2_but {
+  background: url(../img/es2_but.png) no-repeat center center;
+  width: 288px;
+  height: 66px;
+  margin: 20px auto -70px auto;
+  cursor: pointer; }
+
+/* line 1984, main.scss */
+.es2 .es2_block .es2_oknatseny {
+  width: 324px;
+  padding-bottom: 40px;
+  background: #fdfdfd;
+  border: 1px solid #d7d0aa;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px -1px rgba(0, 0, 0, 0.27);
+  float: left; }
+
+/* line 1994, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny__zag {
+  font-size: 2.7em;
+  width: 326px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  background: #fce001;
+  background: -webkit-linear-gradient(bottom, #ff914d, #fbd502);
+  background: linear-gradient(to top, #ff914d, #fbd502);
+  height: 61px;
+  line-height: 61px;
+  border-radius: 4px;
+  margin-top: -16px;
+  margin-left: -2px;
+  box-shadow: 1px 6px 19px -1px rgba(0, 0, 0, 0.37);
+  position: relative;
+  z-index: 10; }
+
+/* line 2013, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena {
+  height: 80px;
+  background: #f3f3f3;
+  position: relative;
+  z-index: 5;
+  margin-top: -5px; }
+
+/* line 2021, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_left {
+  float: left;
+  width: 150px;
+  height: 80px;
+  line-height: 80px;
+  font-weight: 300;
+  color: #737373;
+  font-size: 2em;
+  padding-left: 15px;
+  font-family: "Roboto", sans-serif; }
+
+/* line 2033, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_right {
+  float: right;
+  width: 170px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 4.3em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; }
+
+/* line 2044, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_right span {
+  font-size: 0.7em; }
+
+/* line 2048, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_row {
+  height: 57px;
+  border-top: 1px solid #ebeae2; }
+
+/* line 2053, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left {
+  float: left;
+  width: 150px;
+  height: 57px;
+  font-weight: 300;
+  color: #737373;
+  font-size: 2em;
+  padding-left: 15px;
+  font-family: "Roboto", sans-serif; }
+
+/* line 2064, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table {
+  height: 57px; }
+
+/* line 2068, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table td {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1;
+  font-weight: 300; }
+
+/* line 2074, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right {
+  float: right;
+  width: 170px;
+  height: 57px;
+  line-height: 57px;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400; }
+
+/* line 2085, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right.es2_red {
+  font-size: 3.6em;
+  font-weight: bold; }
+
+/* line 2090, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right span {
+  font-size: 0.7em; }
+
+/* line 2094, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right img {
+  margin-top: -10px; }
+
+/* line 2098, main.scss */
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right_stars {
+  width: 200px !important;
+  margin-left: -30px; }
+
+/* line 2103, main.scss */
+.es2 .es2_block .es2_okna {
+  width: 240px;
+  background: #f4f4f4;
+  float: left;
+  margin-top: 8px; }
+
+/* line 2110, main.scss */
+.es2 .es2_block .es2_okna .es2_okna__zag {
+  font-size: 2em;
+  color: #fff;
+  width: 240px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  background: #01d2e9;
+  height: 43px;
+  line-height: 43px;
+  margin-top: 0px;
+  position: relative;
+  z-index: 5;
+  border-right: 1px solid #02b1c5; }
+
+/* line 2127, main.scss */
+.es2 .es2_block .es2_okna .es2_okna_tsena {
+  height: 76px;
+  background: #f3f3f3;
+  position: relative;
+  z-index: 5;
+  margin-top: -5px;
+  border-right: 1px solid #c5eaee;
+  border-bottom: 1px solid #c5eaee; }
+
+/* line 2137, main.scss */
+.es2 .es2_block .es2_okna .es2_okna_tsena .es2_okna_right {
+  float: right;
+  width: 240px;
+  height: 76px;
+  line-height: 76px;
+  text-align: center;
+  font-size: 4.3em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; }
+
+/* line 2148, main.scss */
+.es2 .es2_block .es2_okna .es2_okna_tsena .es2_okna_right span {
+  font-size: 0.7em; }
+
+/* line 2152, main.scss */
+.es2 .es2_block .es2_okna .es2_okna_row {
+  height: 57px;
+  border-right: 1px solid #c5eaee;
+  border-bottom: 1px solid #c5eaee; }
+
+/* line 2158, main.scss */
+.es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right {
+  float: right;
+  width: 240px;
+  height: 50px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400; }
+
+/* line 2169, main.scss */
+.es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right.es2_red {
+  font-size: 3.6em;
+  font-weight: bold; }
+
+/* line 2174, main.scss */
+.es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right span {
+  font-size: 0.7em; }
+
+/* line 2178, main.scss */
+.es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right img {
+  margin-top: -10px; }
+
+/* line 2182, main.scss */
+.es2 .es2_block .es2_bgtransper {
+  position: absolute;
+  width: 180px;
+  height: 400px;
+  background: url(../img/es2_bgtransper.png) repeat-y;
+  right: 0;
+  z-index: 100; }
+
+/* line 2191, main.scss */
+.es2 .es2_block .iosslider_2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 805px;
+  height: 450px; }
+
+/* line 2200, main.scss */
+.es2 .es2_block .iosslider_2 .slider {
+  width: 100%;
+  height: 100%; }
+
+/* line 2205, main.scss */
+.es2 .es2_block .iosslider_2 .slider .slide {
+  float: left;
+  width: 240px;
+  height: 341px; }
+
+/* line 2211, main.scss */
+.es2 .es2_block .scrollbarBlock5 {
+  background: #edecec;
+  border-radius: 5px; }
+
+/* line 2216, main.scss */
+.es2 .es2_block .scrollbar5 {
+  border: 0px !important; }
+
+@media only screen and (max-width: 1200px) {
+  /* line 2221, main.scss */
+  .es2 .es2_zag {
+    padding: 0 20px;
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 5em;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-top: 40px;
+    margin-bottom: 60px; }
+
+  /* line 2232, main.scss */
+  .es2 .es2_red {
+    color: #ff3333; }
+
+  /* line 2236, main.scss */
+  .es2 .es2_block {
+    width: 980px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative; }
+
+  /* line 2243, main.scss */
+  .es2 .es2_block .es2_but {
+    background: url(../img/es2_but.png) no-repeat center center;
+    width: 288px;
+    height: 66px;
+    margin: 20px auto -70px auto; }
+
+  /* line 2250, main.scss */
+  .es2 .es2_block .es2_oknatseny {
+    width: 324px;
+    padding-bottom: 40px;
+    background: #fdfdfd;
+    border: 1px solid #d7d0aa;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px -1px rgba(0, 0, 0, 0.27);
+    float: left; }
+
+  /* line 2260, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny__zag {
+    font-size: 2.7em;
+    width: 326px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    background: #fce001;
+    background: -webkit-linear-gradient(bottom, #ff914d, #fbd502);
+    background: linear-gradient(to top, #ff914d, #fbd502);
+    height: 61px;
+    line-height: 61px;
+    border-radius: 4px;
+    margin-top: -16px;
+    margin-left: -2px;
+    box-shadow: 1px 6px 19px -1px rgba(0, 0, 0, 0.37);
+    position: relative;
+    z-index: 10; }
+
+  /* line 2279, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena {
+    height: 80px;
+    background: #f3f3f3;
+    position: relative;
+    z-index: 5;
+    margin-top: -5px; }
+
+  /* line 2287, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_left {
+    float: left;
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    font-weight: 300;
+    color: #737373;
+    font-size: 2em;
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif; }
+
+  /* line 2299, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_right {
+    float: right;
+    width: 170px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 4.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold; }
+
+  /* line 2310, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_right span {
+    font-size: 0.7em; }
+
+  /* line 2314, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row {
+    height: 57px;
+    border-top: 1px solid #ebeae2; }
+
+  /* line 2319, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left {
+    float: left;
+    width: 150px;
+    height: 57px;
+    font-weight: 300;
+    color: #737373;
+    font-size: 2em;
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif; }
+
+  /* line 2330, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table {
+    height: 57px; }
+
+  /* line 2334, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table td {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    font-weight: 300; }
+
+  /* line 2340, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right {
+    float: right;
+    width: 170px;
+    height: 57px;
+    line-height: 57px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; }
+
+  /* line 2351, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right.es2_red {
+    font-size: 3.6em;
+    font-weight: bold; }
+
+  /* line 2356, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right span {
+    font-size: 0.7em; }
+
+  /* line 2360, main.scss */
+  .es2 .es2_block .es2_okna {
+    width: 240px;
+    background: #f4f4f4;
+    float: left;
+    margin-top: 8px; }
+
+  /* line 2367, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna__zag {
+    font-size: 2em;
+    color: #fff;
+    width: 240px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    background: #01d2e9;
+    height: 43px;
+    line-height: 43px;
+    margin-top: 0px;
+    position: relative;
+    z-index: 5;
+    border-right: 1px solid #02b1c5; }
+
+  /* line 2384, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_tsena {
+    height: 76px;
+    background: #f3f3f3;
+    position: relative;
+    z-index: 5;
+    margin-top: -5px;
+    border-right: 1px solid #c5eaee;
+    border-bottom: 1px solid #c5eaee; }
+
+  /* line 2394, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_tsena .es2_okna_right {
+    float: right;
+    width: 240px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 4.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold; }
+
+  /* line 2405, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_tsena .es2_okna_right span {
+    font-size: 0.7em; }
+
+  /* line 2409, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row {
+    height: 57px;
+    border-right: 1px solid #c5eaee;
+    border-bottom: 1px solid #c5eaee; }
+
+  /* line 2415, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right {
+    float: right;
+    width: 240px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; }
+
+  /* line 2426, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right.es2_red {
+    font-size: 3.6em;
+    font-weight: bold; }
+
+  /* line 2431, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right span {
+    font-size: 0.7em; }
+
+  /* line 2435, main.scss */
+  .es2 .es2_block .es2_bgtransper {
+    position: absolute;
+    width: 180px;
+    height: 400px;
+    background: url(../img/es2_bgtransper.png) repeat-y;
+    right: 0;
+    z-index: 100; }
+
+  /* line 2445, main.scss */
+  .es2 .es2_block .iosslider_2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 605px;
+    height: 450px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+
+  /* line 2459, main.scss */
+  .es2 .es2_block .iosslider_2 .slider {
+    width: 100%;
+    height: 100%; }
+
+  /* line 2464, main.scss */
+  .es2 .es2_block .iosslider_2 .slider .slide {
+    float: left;
+    width: 240px;
+    height: 341px; }
+
+  /* line 2470, main.scss */
+  .es2 .es2_block .scrollbarBlock5 {
+    background: #edecec;
+    border-radius: 5px; }
+
+  /* line 2475, main.scss */
+  .es2 .es2_block .scrollbar5 {
+    border: 0px !important; } }
+@media only screen and (max-width: 992px) {
+  /* line 2481, main.scss */
+  .es2 .es2_zag {
+    padding: 0 20px;
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 5em;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-top: 40px;
+    margin-bottom: 60px; }
+
+  /* line 2492, main.scss */
+  .es2 .es2_red {
+    color: #ff3333; }
+
+  /* line 2496, main.scss */
+  .es2 .es2_block {
+    width: 740px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative; }
+
+  /* line 2503, main.scss */
+  .es2 .es2_block .es2_but {
+    background: url(../img/es2_but.png) no-repeat center center;
+    width: 288px;
+    height: 66px;
+    margin: 20px auto -70px auto; }
+
+  /* line 2510, main.scss */
+  .es2 .es2_block .es2_oknatseny {
+    width: 324px;
+    padding-bottom: 40px;
+    background: #fdfdfd;
+    border: 1px solid #d7d0aa;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px -1px rgba(0, 0, 0, 0.27);
+    float: left; }
+
+  /* line 2520, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny__zag {
+    font-size: 2.7em;
+    width: 326px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    background: #fce001;
+    background: -webkit-linear-gradient(bottom, #ff914d, #fbd502);
+    background: linear-gradient(to top, #ff914d, #fbd502);
+    height: 61px;
+    line-height: 61px;
+    border-radius: 4px;
+    margin-top: -16px;
+    margin-left: -2px;
+    box-shadow: 1px 6px 19px -1px rgba(0, 0, 0, 0.37);
+    position: relative;
+    z-index: 10; }
+
+  /* line 2539, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena {
+    height: 80px;
+    background: #f3f3f3;
+    position: relative;
+    z-index: 5;
+    margin-top: -5px; }
+
+  /* line 2547, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_left {
+    float: left;
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    font-weight: 300;
+    color: #737373;
+    font-size: 2em;
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif; }
+
+  /* line 2559, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_right {
+    float: right;
+    width: 170px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 4.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold; }
+
+  /* line 2570, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_right span {
+    font-size: 0.7em; }
+
+  /* line 2574, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row {
+    height: 57px;
+    border-top: 1px solid #ebeae2; }
+
+  /* line 2579, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left {
+    float: left;
+    width: 150px;
+    height: 57px;
+    font-weight: 300;
+    color: #737373;
+    font-size: 2em;
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif; }
+
+  /* line 2590, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table {
+    height: 57px; }
+
+  /* line 2594, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table td {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    font-weight: 300; }
+
+  /* line 2600, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right {
+    float: right;
+    width: 170px;
+    height: 57px;
+    line-height: 57px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; }
+
+  /* line 2611, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right.es2_red {
+    font-size: 3.6em;
+    font-weight: bold; }
+
+  /* line 2616, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right span {
+    font-size: 0.7em; }
+
+  /* line 2620, main.scss */
+  .es2 .es2_block .es2_okna {
+    width: 240px;
+    background: #f4f4f4;
+    float: left;
+    margin-top: 8px; }
+
+  /* line 2627, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna__zag {
+    font-size: 2em;
+    color: #fff;
+    width: 240px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    background: #01d2e9;
+    height: 43px;
+    line-height: 43px;
+    margin-top: 0px;
+    position: relative;
+    z-index: 5;
+    border-right: 1px solid #02b1c5; }
+
+  /* line 2644, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_tsena {
+    height: 76px;
+    background: #f3f3f3;
+    position: relative;
+    z-index: 5;
+    margin-top: -5px;
+    border-right: 1px solid #c5eaee;
+    border-bottom: 1px solid #c5eaee; }
+
+  /* line 2654, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_tsena .es2_okna_right {
+    float: right;
+    width: 240px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 4.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold; }
+
+  /* line 2665, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_tsena .es2_okna_right span {
+    font-size: 0.7em; }
+
+  /* line 2669, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row {
+    height: 57px;
+    border-right: 1px solid #c5eaee;
+    border-bottom: 1px solid #c5eaee; }
+
+  /* line 2675, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right {
+    float: right;
+    width: 240px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; }
+
+  /* line 2686, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right.es2_red {
+    font-size: 3.6em;
+    font-weight: bold; }
+
+  /* line 2691, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right span {
+    font-size: 0.7em; }
+
+  /* line 2695, main.scss */
+  .es2 .es2_block .es2_bgtransper {
+    position: absolute;
+    width: 180px;
+    height: 400px;
+    background: url(../img/es2_bgtransper.png) repeat-y;
+    right: 0;
+    z-index: 100; }
+
+  /* line 2704, main.scss */
+  .es2 .es2_block .iosslider_2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 405px;
+    height: 450px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+
+  /* line 2718, main.scss */
+  .es2 .es2_block .iosslider_2 .slider {
+    width: 100%;
+    height: 100%; }
+
+  /* line 2723, main.scss */
+  .es2 .es2_block .iosslider_2 .slider .slide {
+    float: left;
+    width: 240px;
+    height: 341px; }
+
+  /* line 2729, main.scss */
+  .es2 .es2_block .scrollbarBlock5 {
+    background: #edecec;
+    border-radius: 5px; }
+
+  /* line 2734, main.scss */
+  .es2 .es2_block .scrollbar5 {
+    border: 0px !important; } }
+@media only screen and (max-width: 768px) {
+  /* line 2740, main.scss */
+  .es2 .es2_zag {
+    padding: 70px 20px 0px 20px;
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 60px; }
+
+  /* line 2750, main.scss */
+  .es2 .es2_red {
+    color: #ff3333; }
+
+  /* line 2754, main.scss */
+  .es2 .es2_block {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative; }
+
+  /* line 2761, main.scss */
+  .es2 .es2_block .es2_but {
+    background: url(../img/es2_but.png) no-repeat center center;
+    width: 288px;
+    height: 66px;
+    margin: 20px auto -70px auto; }
+
+  /* line 2768, main.scss */
+  .es2 .es2_block .es2_oknatseny {
+    width: 324px;
+    padding-bottom: 40px;
+    background: #fdfdfd;
+    border: 1px solid #d7d0aa;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px -1px rgba(0, 0, 0, 0.27);
+    float: none;
+    margin: 0 auto; }
+
+  /* line 2779, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny__zag {
+    font-size: 2.7em;
+    width: 326px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    background: #fce001;
+    background: -webkit-linear-gradient(bottom, #ff914d, #fbd502);
+    background: linear-gradient(to top, #ff914d, #fbd502);
+    height: 61px;
+    line-height: 61px;
+    border-radius: 4px;
+    margin-top: -16px;
+    margin-left: -2px;
+    box-shadow: 1px 6px 19px -1px rgba(0, 0, 0, 0.37);
+    position: relative;
+    z-index: 10; }
+
+  /* line 2798, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena {
+    height: 80px;
+    background: #f3f3f3;
+    position: relative;
+    z-index: 5;
+    margin-top: -5px; }
+
+  /* line 2806, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_left {
+    float: left;
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    font-weight: 300;
+    color: #737373;
+    font-size: 2em;
+    padding-left: 15px;
+    font-family: "Roboto", sans-serif; }
+
+  /* line 2818, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_right {
+    float: right;
+    width: 170px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 4.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold; }
+
+  /* line 2829, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_right span {
+    font-size: 0.7em; }
+
+  /* line 2833, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row {
+    height: 57px;
+    border-top: 1px solid #ebeae2; }
+
+  /* line 2838, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left {
+    float: left;
+    width: 150px;
+    height: 57px;
+    font-weight: 300;
+    color: #737373;
+    font-size: 2em;
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif; }
+
+  /* line 2849, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table {
+    height: 57px; }
+
+  /* line 2853, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table td {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    font-weight: 300; }
+
+  /* line 2859, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right {
+    float: right;
+    width: 170px;
+    height: 57px;
+    line-height: 57px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; }
+
+  /* line 2870, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right.es2_red {
+    font-size: 3.6em;
+    font-weight: bold; }
+
+  /* line 2875, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right span {
+    font-size: 0.7em; }
+
+  /* line 2879, main.scss */
+  .es2 .es2_block .es2_okna {
+    width: 240px;
+    background: #f4f4f4;
+    float: left;
+    margin-top: 8px; }
+
+  /* line 2886, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna__zag {
+    font-size: 2em;
+    color: #fff;
+    width: 240px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    background: #01d2e9;
+    height: 43px;
+    line-height: 43px;
+    margin-top: 0px;
+    position: relative;
+    z-index: 5;
+    border-right: 1px solid #02b1c5; }
+
+  /* line 2903, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_tsena {
+    height: 76px;
+    background: #f3f3f3;
+    position: relative;
+    z-index: 5;
+    margin-top: -5px;
+    border-right: 1px solid #c5eaee;
+    border-bottom: 1px solid #c5eaee; }
+
+  /* line 2913, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_tsena .es2_okna_right {
+    float: right;
+    width: 240px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 4.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold; }
+
+  /* line 2924, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_tsena .es2_okna_right span {
+    font-size: 0.7em; }
+
+  /* line 2928, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row {
+    height: 57px;
+    border-right: 1px solid #c5eaee;
+    border-bottom: 1px solid #c5eaee; }
+
+  /* line 2934, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right {
+    float: right;
+    width: 240px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; }
+
+  /* line 2945, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right.es2_red {
+    font-size: 3.6em;
+    font-weight: bold; }
+
+  /* line 2950, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right span {
+    font-size: 0.7em; }
+
+  /* line 2954, main.scss */
+  .es2 .es2_block .es2_bgtransper {
+    position: absolute;
+    width: 180px;
+    height: 400px;
+    background: url(../img/es2_bgtransper.png) repeat-y;
+    right: 0;
+    z-index: 100;
+    display: none; }
+
+  /* line 2964, main.scss */
+  .es2 .es2_block .iosslider_2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 605px;
+    height: 450px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none; }
+
+  /* line 2979, main.scss */
+  .es2 .es2_block .iosslider_2 .slider {
+    width: 100%;
+    height: 100%; }
+
+  /* line 2984, main.scss */
+  .es2 .es2_block .iosslider_2 .slider .slide {
+    float: left;
+    width: 240px;
+    height: 341px; }
+
+  /* line 2990, main.scss */
+  .es2 .es2_block .scrollbarBlock5 {
+    background: #edecec;
+    border-radius: 5px; }
+
+  /* line 2995, main.scss */
+  .es2 .es2_block .scrollbar5 {
+    border: 0px !important; } }
+@media only screen and (max-width: 480px) {
+  /* line 3001, main.scss */
+  .es2 .es2_zag {
+    padding: 70px 20px 0px 20px;
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 60px; }
+
+  /* line 3011, main.scss */
+  .es2 .es2_red {
+    color: #ff3333; }
+
+  /* line 3015, main.scss */
+  .es2 .es2_block {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative; }
+
+  /* line 3022, main.scss */
+  .es2 .es2_block .es2_but {
+    background: url(../img/es2_but.png) no-repeat center center;
+    width: 288px;
+    height: 66px;
+    margin: 20px auto -70px auto; }
+
+  /* line 3029, main.scss */
+  .es2 .es2_block .es2_oknatseny {
+    width: 300px;
+    padding-bottom: 40px;
+    background: #fdfdfd;
+    border: 1px solid #d7d0aa;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px -1px rgba(0, 0, 0, 0.27);
+    float: none;
+    margin: 0 auto; }
+
+  /* line 3040, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny__zag {
+    font-size: 2.7em;
+    width: 302px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    background: #fce001;
+    background: -webkit-linear-gradient(bottom, #ff914d, #fbd502);
+    background: linear-gradient(to top, #ff914d, #fbd502);
+    height: 61px;
+    line-height: 61px;
+    border-radius: 4px;
+    margin-top: -16px;
+    margin-left: -2px;
+    box-shadow: 1px 6px 19px -1px rgba(0, 0, 0, 0.37);
+    position: relative;
+    z-index: 10; }
+
+  /* line 3059, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena {
+    height: 80px;
+    background: #f3f3f3;
+    position: relative;
+    z-index: 5;
+    margin-top: -5px; }
+
+  /* line 3067, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_left {
+    float: left;
+    width: 130px;
+    height: 80px;
+    line-height: 80px;
+    font-weight: 300;
+    color: #737373;
+    font-size: 2em;
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif; }
+
+  /* line 3079, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_right {
+    float: right;
+    width: 130px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 3.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold; }
+
+  /* line 3090, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_right span {
+    font-size: 0.7em; }
+
+  /* line 3094, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row {
+    height: 57px;
+    border-top: 1px solid #ebeae2; }
+
+  /* line 3099, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left {
+    float: left;
+    width: 150px;
+    height: 57px;
+    font-weight: 300;
+    color: #737373;
+    font-size: 2em;
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif; }
+
+  /* line 3110, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table {
+    height: 57px; }
+
+  /* line 3114, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table td {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    font-weight: 300; }
+
+  /* line 3120, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right {
+    float: right;
+    width: 130px;
+    height: 57px;
+    line-height: 57px;
+    text-align: center;
+    font-size: 2.2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-left: -60px !important; }
+
+  /* line 3132, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right.es2_red {
+    font-size: 3.6em;
+    font-weight: bold; }
+
+  /* line 3137, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right span {
+    font-size: 0.7em; }
+
+  /* line 3141, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right img {
+    width: 25px; }
+
+  /* line 3145, main.scss */
+  .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right_stars {
+    width: 170px !important;
+    margin-left: -30px; }
+
+  /* line 3150, main.scss */
+  .es2 .es2_block .es2_okna {
+    width: 240px;
+    background: #f4f4f4;
+    float: left;
+    margin-top: 8px; }
+
+  /* line 3157, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna__zag {
+    font-size: 2em;
+    color: #fff;
+    width: 240px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    background: #01d2e9;
+    height: 43px;
+    line-height: 43px;
+    margin-top: 0px;
+    position: relative;
+    z-index: 5;
+    border-right: 1px solid #02b1c5; }
+
+  /* line 3174, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_tsena {
+    height: 76px;
+    background: #f3f3f3;
+    position: relative;
+    z-index: 5;
+    margin-top: -5px;
+    border-right: 1px solid #c5eaee;
+    border-bottom: 1px solid #c5eaee; }
+
+  /* line 3184, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_tsena .es2_okna_right {
+    float: right;
+    width: 240px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 4.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold; }
+
+  /* line 3195, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_tsena .es2_okna_right span {
+    font-size: 0.7em; }
+
+  /* line 3199, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row {
+    height: 57px;
+    border-right: 1px solid #c5eaee;
+    border-bottom: 1px solid #c5eaee; }
+
+  /* line 3205, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right {
+    float: right;
+    width: 240px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; }
+
+  /* line 3216, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right.es2_red {
+    font-size: 3.6em;
+    font-weight: bold; }
+
+  /* line 3221, main.scss */
+  .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right span {
+    font-size: 0.7em; }
+
+  /* line 3225, main.scss */
+  .es2 .es2_block .es2_bgtransper {
+    position: absolute;
+    width: 180px;
+    height: 400px;
+    background: url(../img/es2_bgtransper.png) repeat-y;
+    right: 0;
+    z-index: 100;
+    display: none; }
+
+  /* line 3235, main.scss */
+  .es2 .es2_block .iosslider_2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 605px;
+    height: 450px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none; }
+
+  /* line 3250, main.scss */
+  .es2 .es2_block .iosslider_2 .slider {
+    width: 100%;
+    height: 100%; }
+
+  /* line 3255, main.scss */
+  .es2 .es2_block .iosslider_2 .slider .slide {
+    float: left;
+    width: 240px;
+    height: 341px; }
+
+  /* line 3261, main.scss */
+  .es2 .es2_block .scrollbarBlock5 {
+    background: #edecec;
+    border-radius: 5px; }
+
+  /* line 3266, main.scss */
+  .es2 .es2_block .scrollbar5 {
+    border: 0px !important; } }

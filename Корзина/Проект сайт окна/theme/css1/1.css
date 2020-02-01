@@ -1,0 +1,183 @@
+
+
+/* Start:/bitrix/templates/.default/components/okna_components_mobile/form.result.modal/template_smsskidka/style.css?1442756679623*/
+table.form-table
+{
+	width:100%;
+	background-color:white;
+	border-collapse:collapse;
+	font-size:100%;
+	font-weight:normal;
+	line-height:160%;
+}
+
+table.form-table th, table.form-table td
+{
+	border:1px solid #ADC3D5;
+	padding: 5px 5px;
+	vertical-align:top;
+}
+
+table.form-table th
+{
+	background-image:url(/bitrix/templates/.default/components/okna_components_mobile/form.result.modal/template_smsskidka/images/table_head.gif);
+	background-repeat:repeat-x;
+	text-align: left;
+	color:#25639A;
+}
+
+
+table.form-table td
+{
+	padding: 15px 5px;
+}
+
+.form-required 
+{
+	color: red;
+}
+
+.error-fld {
+	display: block;
+	float: left;
+	height: 13px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-image: url(/bitrix/templates/.default/components/okna_components_mobile/form.result.modal/template_smsskidka/images/icon_warn.gif);
+}
+/* End */
+
+
+/* Start:/bitrix/templates/.default/components/okna_components_mobile/form.result.modal/template_zafixtsenu/style.css?1441261695623*/
+table.form-table
+{
+	width:100%;
+	background-color:white;
+	border-collapse:collapse;
+	font-size:100%;
+	font-weight:normal;
+	line-height:160%;
+}
+
+table.form-table th, table.form-table td
+{
+	border:1px solid #ADC3D5;
+	padding: 5px 5px;
+	vertical-align:top;
+}
+
+table.form-table th
+{
+	background-image:url(/bitrix/templates/.default/components/okna_components_mobile/form.result.modal/template_zafixtsenu/images/table_head.gif);
+	background-repeat:repeat-x;
+	text-align: left;
+	color:#25639A;
+}
+
+
+table.form-table td
+{
+	padding: 15px 5px;
+}
+
+.form-required 
+{
+	color: red;
+}
+
+.error-fld {
+	display: block;
+	float: left;
+	height: 13px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-image: url(/bitrix/templates/.default/components/okna_components_mobile/form.result.modal/template_zafixtsenu/images/icon_warn.gif);
+}
+/* End */
+
+
+/* Start:/bitrix/templates/.default/components/bitrix/news.list/template_es14/style.css?1441365628150*/
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+/* End */
+
+
+/* Start:/bitrix/templates/.default/components/bitrix/news.list/template_es16/style.css?1441366773150*/
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+/* End */
+
+
+/* Start:/bitrix/templates/.default/components/okna_components_mobile/form.result.modal/template_perezv5min/style.css?1441262020623*/
+table.form-table
+{
+	width:100%;
+	background-color:white;
+	border-collapse:collapse;
+	font-size:100%;
+	font-weight:normal;
+	line-height:160%;
+}
+
+table.form-table th, table.form-table td
+{
+	border:1px solid #ADC3D5;
+	padding: 5px 5px;
+	vertical-align:top;
+}
+
+table.form-table th
+{
+	background-image:url(/bitrix/templates/.default/components/okna_components_mobile/form.result.modal/template_perezv5min/images/table_head.gif);
+	background-repeat:repeat-x;
+	text-align: left;
+	color:#25639A;
+}
+
+
+table.form-table td
+{
+	padding: 15px 5px;
+}
+
+.form-required 
+{
+	color: red;
+}
+
+.error-fld {
+	display: block;
+	float: left;
+	height: 13px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-image: url(/bitrix/templates/.default/components/okna_components_mobile/form.result.modal/template_perezv5min/images/icon_warn.gif);
+}
+/* End */
+/* /bitrix/templates/.default/components/okna_components_mobile/form.result.modal/template_smsskidka/style.css?1442756679623 */
+/* /bitrix/templates/.default/components/okna_components_mobile/form.result.modal/template_zafixtsenu/style.css?1441261695623 */
+/* /bitrix/templates/.default/components/bitrix/news.list/template_es14/style.css?1441365628150 */
+/* /bitrix/templates/.default/components/bitrix/news.list/template_es16/style.css?1441366773150 */
+/* /bitrix/templates/.default/components/okna_components_mobile/form.result.modal/template_perezv5min/style.css?1441262020623 */

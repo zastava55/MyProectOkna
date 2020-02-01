@@ -1,0 +1,242 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,700italic&subset=latin,latin-ext,cyrillic);
+
+.roboto {
+    font-family: 'Roboto', sans-serif
+}
+
+@font-face {
+    font-family: 'nautilus_pompiliusregular';
+    src: url("..../fonts/nautiluspompilius-webfont.eot");
+    src: url("..../fonts/nautiluspompilius-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/nautiluspompilius-webfont.woff2") format("woff2"), url("../fonts/nautiluspompilius-webfont.woff") format("woff"), url("../fonts/nautiluspompilius-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'ALSSchlangesans';
+    src: url("../fonts/ALSSchlangesans.eot");
+    src: url("../fonts/ALSSchlangesans.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSSchlangesans.woff2") format("woff2"), url("../fonts/ALSSchlangesans.woff") format("woff"), url("../fonts/ALSSchlangesans.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'ALSSchlangesans-bold';
+    src: url("../fonts/ALSSchlangesans-bold.eot");
+    src: url("../fonts/ALSSchlangesans-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSSchlangesans-bold.woff2") format("woff2"), url("../fonts/ALSSchlangesans-bold.woff") format("woff"), url("../fonts/ALSSchlangesans-bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'pfdindisplaypro';
+    src: url("../fonts/pfdindisplaypro-blackitalic-webfont.eot");
+    src: url("../fonts/pfdindisplaypro-blackitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfdindisplaypro-blackitalic-webfont.woff2") format("woff2"), url("../fonts/pfdindisplaypro-blackitalic-webfont.woff") format("woff"), url("../fonts/pfdindisplaypro-blackitalic-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'allegro-bt-webfont';
+    src: url("../fonts/allegro-bt-webfont.eot");
+    src: url("../fonts/allegro-bt-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/allegro-bt-webfont.woff2") format("woff2"), url("../fonts/allegro-bt-webfont.woff") format("woff"), url("../fonts/allegro-bt-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+dialog,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+table {
+    border-collapse: separate
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    float: none !important
+}
+
+table,
+th,
+td {
+    vertical-align: middle
+}
+
+.tdtop {
+    vertical-align: top !important
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: ''
+}
+
+blockquote,
+q {
+    quotes: """"
+}
+
+a img {
+    border: none
+}
+
+:focus {
+    outline: 0
+}
+
+body {
+    font-size: 62.5% !important;
+    color: #0d0d0d;
+    background: #ffffff;
+    font-family: 'PT Sans', sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    color: #161616
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 0px;
+    color: #0c6bb6;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px
+}
+
+h2 {
+    font-size: 44px;
+    color: #ffd500;
+    font-weight: bold
+}
+
+h3 {
+    font-size: 44px;
+    font-weight: bold
+}
+
+h4 {
+    font-size: 1.2em;
+    line-height: 1.25;
+    margin-bottom: 1.25em
+}
+
+h5 {
+    font-size: 1em;
+    margin-bottom: 1.5em
+}
+
+h6 {
+    font-size: 1em
+}
+
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
+    margin: 0
+}
+
+p {
+    font-weight: lighter !important;
+    font-size: 1.4em
+}
+.header{
+    -webkit-box-shadow:inset 1920px 120px 1px 1px #FF9C2B;
+    box-shadow:inset 1200px 12px 1px 1px #FF9C2B;
+}
